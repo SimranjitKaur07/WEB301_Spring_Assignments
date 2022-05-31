@@ -3,3 +3,19 @@ html, body{
     padding: 0;
     font-size: 12px;
 }
+.column{
+    float: left;
+    width: 25%;
+}
+.row.after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1,h2,h3,h4{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
