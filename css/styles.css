@@ -2,3 +2,9 @@ html, body{
     margin: 0;
     padding: 0;
 }
+html{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    color: indigo;
+    font-weight: bold;
+}
