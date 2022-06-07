@@ -8,3 +8,24 @@ html{
     color: indigo;
     font-weight: bold;
 }
+
+@media only screen and (min-width: 600px) {
+    .potraitClock{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .landscapeClock{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    nav a{
+        float: left;
+        display: block;
+        text-align: right;
+        padding: 15px 18px;
+    }
+    
+}
