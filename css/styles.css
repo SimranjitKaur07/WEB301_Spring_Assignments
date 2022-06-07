@@ -29,3 +29,13 @@ html{
     }
     
 }
+
+@media only screen and (max-width: 600px) {
+    nav a{
+        float: center;
+        display: flex;
+        text-align: right;
+        padding: 15px 18px;
+    }
+    
+}
