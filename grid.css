@@ -1,0 +1,41 @@
+.content-wrapper{
+    max-width:1024px;
+    border: 1px solid black;
+    padding: 15px;
+    margin:auto;
+    box-sizing: border-box;
+ }
+ 
+**Coloumn Styling**
+ [class*="col-"]{ 
+    float: left;
+    padding: 10px; 
+    border: 2px solid 
+    text-align: center;
+    box-sizing: border-box;
+ }
+ .row::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0 0 10px 0;
+ }
+ 
+ .col-1{
+    width: calc(100% / 12);
+ }
+ .col-2{
+    width: calc(100% / 6);
+    font-size: 1.01em;
+ }
+ .col-3{
+    width: calc(100% / 4);
+ }
+
+ 
+ 
+ @media only screen and (max-width: 500px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+ }
