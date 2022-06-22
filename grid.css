@@ -5,6 +5,7 @@
     margin:auto;
     box-sizing: border-box;
  }
+
  
 **Coloumn Styling**
  [class*="col-"]{ 
@@ -22,7 +23,7 @@
  }
  
  .col-1{
-    width: calc(100% / 12);
+    width: calc(100% / 4);
  }
  .col-2{
     width: calc(100% / 6);
