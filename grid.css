@@ -22,14 +22,14 @@
     margin: 0 0 10px 0;
  }
  
- .col-1{
+ .coloumn-1{
     width: calc(100% / 4);
  }
- .col-2{
+ .coloumn-2{
     width: calc(100% / 6);
     font-size: 1.01em;
  }
- .col-3{
+ .coloumn-3{
     width: calc(100% / 4);
  }
 
